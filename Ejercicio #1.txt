@@ -1,0 +1,14 @@
+Cree un programa de consola en .net core que permita la creacion, lectura, modificacion y borrado de las siguientes entidades:
+- Persona:
+ - Cedula:int
+ - Nombre:String
+ - FechaNacimiento:DateTime
+- Mascota:
+ - Nombre:String
+ - Raza:String
+ - EstadoAdopcion:Bool
+
+Una persona puede tener muchas mascotas y una mascota puede tener muchas personas.
+Para este ejercicio se debe de implementar el patron repositorio con dos repositorios distintos.
+El primer repositorio va a ser un repositorio con datos falsos de prueba.
+El segundo repositorio va a ser un modulo de entity framework.
